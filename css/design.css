@@ -1,70 +1,74 @@
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Dancing+Script:wght@400;500;600&family=Roboto:wght@300&family=Poppins:wght@300;500;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Dancing+Script:wght@400;500;600&family=Roboto:wght@300&family=Poppins:wght@300;500;700&display=swap");
 
 .jumbotron::before {
-  top:0;
-  left:0;
-  content:"";
-  width:100%;
-  height:100%;
-  z-index:-10;
-  display:block;
-  position:fixed;
-  background-size:cover;
-  background-image:url(../img/mobile_version.png);
+  top: 0;
+  left: 0;
+  content: "";
+  width: 100%;
+  height: 100%;
+  z-index: -10;
+  display: block;
+  position: fixed;
+  background-size: cover;
+  background-image: url(../img/mobile_version.png);
 }
 .jumbotron {
   width: 100%;
   height: 100%;
   display: flex;
-  margin-bottom: 60px;
+  margin-bottom: 30px;
   align-items: center;
   flex-direction: column;
 }
-.profil{
+.profil {
   width: 150px;
   margin: 15px 0;
 }
-.jumbotron h1{
+.jumbotron h1 {
   color: crimson;
   font-weight: 500;
-  font-family: 'Poppins', Sans-Serif;
+  font-family: "Poppins", Sans-Serif;
 }
 .jumbotron .text-2 {
-  color:#22222a;
-  font-weight:500;
-  font-weight:700;
-  text-align:center;
-  padding-bottom:20px;
-  font-family:'Comfortaa', cursive;
+  color: #22222a;
+  font-weight: 500;
+  font-weight: 700;
+  text-align: center;
+  padding-bottom: 20px;
+  font-family: "Comfortaa", cursive;
 }
 
 /* Style contain */
 .tombol {
-  width:90%;
-  height:50px;
-  display:flex;
-  color:#0D6EFD;
-  margin-top:15px;
-  border-radius:40px;
-  align-items:center;
-  background-color:#fff;
-  justify-content:space-around;
-  font-family:'Poppins', Sans-Serif;
-  box-shadow:0 10px 10px rgba(0,0,0,0.1);
+  width: 90%;
+  height: 50px;
+  display: flex;
+  color: #0d6efd;
+  margin-top: 15px;
+  border-radius: 40px;
+  align-items: center;
+  background-color: #fff;
+  justify-content: space-around;
+  font-family: "Poppins", Sans-Serif;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
 }
-.tombol a{
+.tombol a {
   text-decoration: none;
 }
-.A,.A a{
-  color: #3594F0;
+.A,
+.A a {
+  color: #3594f0;
 }
-.B,.B a{
+.B,
+.B a {
   color: #f00;
 }
-.C,.C a{
-  color: #F06A35;
+.C,
+.C a {
+  color: #f06a35;
 }
-.D,.D a{
+.D,
+.D a {
   color: crimson;
 }
 
@@ -92,15 +96,20 @@
 and style*/
 
 .credit {
+  display: flex;
   left: 0;
+  justify-content: center;
   width: 100%;
-  bottom: 10px;
+  margin-bottom: 20px;
   color: #22222a;
-  position: fixed;
   text-align: center;
-  font-family: 'Comfortaa', cursive;
+  align-items: center;
 }
-.credit a{
+.credit .halo {
+  font-family: "Comfortaa", cursive;
+  padding: 0 20px;
+}
+.credit a {
   color: crimson;
   text-decoration: none;
 }

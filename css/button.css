@@ -1,105 +1,107 @@
 /* Style Bottin icon */
 .button:hover {
-  width:130px;
+  width: 130px;
 }
 
 .button {
-  width:36px;
-  float:left;
-  height:36px;
-  margin:0 2px;
-  overflow:hidden;
-  border-radius:50px;
-  background-color:white;
-  transition:all 0.3s ease-in-out;
-  font-family:'Poppins', Sans-Serif;
-  box-shadow:0 10px 10px rgba(0,0,0,0.1);
+  width: 36px;
+  float: left;
+  height: 36px;
+  margin: 0 2px;
+  overflow: hidden;
+  border-radius: 50px;
+  background-color: white;
+  transition: all 0.3s ease-in-out;
+  font-family: "Poppins", Sans-Serif;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+}
+.button a {
+  text-decoration: none;
 }
 
 .button .icon {
-  width:36px;
-  height:36px;
-  text-align:center;
-  border-radius:50px;
-  transition:all 0.4s;
-  display:inline-block;
+  width: 36px;
+  height: 36px;
+  text-align: center;
+  border-radius: 50px;
+  transition: all 0.4s;
+  display: inline-block;
 }
 
 .button .icon i {
-  line-height:36px;
-  transition:all 0.3s ease-in-out;
+  line-height: 36px;
 }
 /* Color Icon */
-.button:nth-child(1):hover .icon a{
+.button:nth-child(1):hover .icon {
   color: white;
 }
-.button:nth-child(2):hover .icon a{
+.button:nth-child(2):hover .icon {
   color: white;
 }
-.button:nth-child(3):hover .icon a{
+.button:nth-child(3):hover .icon {
   color: white;
 }
-.button:nth-child(4):hover .icon a{
+.button:nth-child(4):hover .icon {
   color: white;
 }
-.button:nth-child(5):hover .icon a{
+.button:nth-child(5):hover .icon {
   color: white;
 }
-.button:nth-child(6):hover .icon a{
+.button:nth-child(6):hover .icon {
   color: white;
 }
 /* Color Icon Hover */
-.button:nth-child(1):hover .icon{
-  background: #2467B2;
+a:nth-child(1):hover .button .icon {
+  background: #2467b2;
 }
-.button:nth-child(2):hover .icon{
-  background: #F00;
+a:nth-child(2):hover .button .icon {
+  background: #f00;
 }
-.button:nth-child(3):hover .icon{
+a:nth-child(3):hover .button .icon {
   background: #333;
 }
-.button:nth-child(4):hover .icon{
-  background: #A63F9A;
+a:nth-child(4):hover .button .icon {
+  background: #a63f9a;
 }
-.button:nth-child(5):hover .icon{
-  background: #EA4C89;
+a:nth-child(5):hover .button .icon {
+  background: #ea4c89;
 }
-.button:nth-child(6):hover .icon{
-  background: #1DA1F2;
+.button:nth-child(6):hover .icon {
+  background: #0d6efd;
   transform: rotate(225deg);
 }
 /* Color icon */
-.button:nth-child(1) .icon a{
-  color: #2467B2;
+a:nth-child(1) .button .icon {
+  color: #2467b2;
 }
-.button:nth-child(2) .icon a{
-  color: #F00 ;
+a:nth-child(2) .button .icon {
+  color: #f00;
 }
-.button:nth-child(3) .icon a{
+a:nth-child(3) .button .icon {
   color: #333;
 }
-.button:nth-child(4) .icon a{
-  color: #A63F9A;
+a:nth-child(4) .button .icon {
+  color: #a63f9a;
 }
-.button:nth-child(5) .icon a{
-  color: #EA4C89;
+a:nth-child(5) .button .icon {
+  color: #ea4c89;
+}
+.button:nth-child(6) .icon {
+  color: #0d6efd;
 }
 /* Color text Hover */
-.button:nth-child(1) span {
-  color: #2467B2;
+a:nth-child(1) .button span {
+  color: #2467b2;
 }
-.button:nth-child(2) span {
-  color: #F00;
+a:nth-child(2) .button span {
+  color: #f00;
 }
-.button:nth-child(3) span {
+a:nth-child(3) .button span {
   color: #333;
 }
-.button:nth-child(4) span {
-  color: #A63F9A;
-} 
-.button:nth-child(5) span {
-  color: #EA4C89;
+a:nth-child(4) .button span {
+  color: #a63f9a;
 }
-.button:nth-child(6) span {
-  color: #1DA1F2;
+a:nth-child(5) .button span {
+  color: #ea4c89;
 }
